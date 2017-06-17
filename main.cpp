@@ -1,7 +1,6 @@
 #include <Arduino.h>
 #include "LiquidCrystal_I2C.h"
 
-/* RS, E, DB4-DB7 */
 LiquidCrystal_I2C lcd(0x3F, 16, 2);
 
 void setup()
